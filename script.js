@@ -88,19 +88,19 @@ console.log(num, bool, str, err)
 
 
 
-// Task 3 Status: Failed
+// Task 3 Status: Not done at all
 
 
 
-// let max = 5
-// let arr2 = [1, 2, false, 'hello', 24, 2,  'world', undefined, null, 'error', 22] 
-// arr2.filter(item => {
-//     if (typeof(arr2) === 'number' >= max.length) {
-//         console.log('Good')
-//     } else {
-//         console.log('Bad')
-//     }
-// })
+
+let arr2 = [1, 2, false, 'hello', 24, 2,  'world', undefined, null, 'error', 22] 
+arr2.filter(item => {
+    if (typeof(item) === 'number' || item >= 5) {
+        console.log('Good')
+    } else {
+        console.log('Delete')
+    }
+})
 
 
 
@@ -112,17 +112,3 @@ console.log(num, bool, str, err)
 // longStr = []
 // let longString = arr3.filter(item => item.length < arr3[0].length ? longStr.push(item) : arr3)
 // console.log(longStr)
-
-
-
-
-// Task 5 Status: Failed
-
-// let arr4 = [1, 2, false, 'hello', 24, 2, 'world', undefined, null, 'error', 22]
-// let inc = arr4.filter(item => {
-//     if (typeof(item) === 'number' >= 5) {
-//         console.log('Good')
-//     } else {
-//         console.log('Bad')
-//     }
-// })
